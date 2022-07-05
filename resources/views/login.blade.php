@@ -2,7 +2,7 @@
 @section("content")
 <br><br><br><br>
 <center>
-<form action="login" method="POST"> 
+<form action="login" method="POST" >
   <div class="mb-3">
       @csrf
     <label for="exampleInputEmail1" class="form-label">Email address</label>

@@ -1,6 +1,8 @@
 @extends('master')
 @section("content")
 
+
+
 <br><br><br>
 <center>
       <div class="trending-wrapper">
@@ -14,6 +16,7 @@
             <h3>{{$item['name']}}</h3>
           </div>
           <img class="trending-image" src="{{$item['gallery']}}" width="500" height="500">
+          <h2 color="black">{{$item['price']}}</h2>
           <hr width=70% color="black">
         </a><br><br><br><br>
         </div>

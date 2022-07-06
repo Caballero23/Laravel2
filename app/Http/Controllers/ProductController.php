@@ -3,12 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
+use App\Models\Cart;
+use App\Models\Order;
 
+use Session;
+use Illuminate\Support\Facades\DB;
 class ProductController extends Controller
 {
-    function index(){
+    //
+    function index()
+    {
+        $data= Product::all();
 
-        return "welcome";
+       return view('product',['products'=>$data]);
     }
     //
 }

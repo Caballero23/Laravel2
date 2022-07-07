@@ -22,7 +22,7 @@
        <button class="btn btn-success">Comprar</button>
        <br>
        <br>
-       <a href="/">⬅Atrás⬅</a>
+       <a href="/" style=" text-decoration: none;">	&#11013;Atrás</a>
     </div>
    </div>
   
